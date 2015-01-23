@@ -18,3 +18,5 @@ Build for old Internet Explorers smaller than version 9.
 - groupCollapsed (empty)
 - groupEnd (empty)
 
+
+![Example](http://s12.postimg.org/kxwt8ewb1/console.png "Example")
