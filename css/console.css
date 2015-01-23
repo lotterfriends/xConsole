@@ -1,0 +1,68 @@
+/* console.css */
+
+.xconsole {
+	border: 1px solid #999;
+	background-color: #fff;
+	position: fixed;
+	top: 10px;
+	left: 10px;
+	width: 600px;
+	height: 250px;
+	margin: 0;
+	font-size: 10px;
+	overflow: auto;
+	z-index: 999;
+}
+
+.xconsole_message_holder {
+	font-family: Monospace;
+	white-space: nowrap;
+}
+
+.xconsole_log_message {
+	margin: 0;
+	padding: 2px;
+	border-bottom: 1px solid #efefef;
+}
+
+.xconsole_log_message.error {
+	border-left: 4px ridge red;
+}
+
+.xconsole_log_message.log {
+	border-left: 4px ridge grey;
+}
+
+.xconsole_log_message.info {
+	border-left: 4px ridge yellow;
+}
+
+.xconsole_log_message.debug {
+	border-left: 4px ridge blue;
+}
+
+.json-key {
+	color: brown;
+}
+.json-value {
+	color: navy;
+}
+.json-string {
+	color: olive;
+}
+
+.xconsole_input_indicator {
+	color: blue;
+}
+
+.xconsole_input_field {
+	font-size: 10px;
+	width: 100%;
+	border: 0;
+	width: 570px;
+	padding: 0 2px;
+}
+
+.xconsole_input_field:focus {
+	outline: 0;
+}

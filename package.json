@@ -1,0 +1,11 @@
+{
+  "name": "xConsole",
+  "description": "Browser console for logging and debugging",
+  "version": "0.0.1",
+  "homepage": "https://lottefriends.de",
+  "author" : "André Tarnowsky",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lotterfriends/xConsole"
+  }
+}
